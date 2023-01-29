@@ -70,4 +70,8 @@ High Risk: 92%, Low Risk: 94%
 
 # Summary 
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+Thanks to technology, companies today have the opportunity to assess the risk profile of a customer and machine learning can be a very useful tool for predictions.
+
+Based on our results, we can see that the Easy Ensemble AdaBoost classifier model was the one that offered the highest accuracy score: 93% compared to the rest of the models. However, on something as critical as credit risk, we have to make sure that our model performs well. The accuracy percentage does not guarantee that the model is free of errors, so we must also take more factors into account.
+
+In this scenario, the sensitivity/recall percentage should be the one that determines whether the model is successful or not. We can see that there is 92% high risk credit and 94% low risk credit, so I would not recommend using either of these prediction models as there is no difference in margin and the result is unclear. These results can generate a long-term conflict for the lender.
